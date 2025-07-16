@@ -2,7 +2,7 @@
   "size": {
     "100": {
       "$type": "number",
-      "$value": 4,
+      "$value": 99,
       "$description": "",
       "$extensions": {
         "com.figma": {
