@@ -4,7 +4,7 @@
       "interactive": {
         "primaryAccent": {
           "$type": "color",
-          "$value": "#ffffff00",
+          "$value": "#f10000",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -191,6 +191,20 @@
           }
         }
       },
+      "background": {
+        "primary": {
+          "$type": "color",
+          "$value": "#ffffff",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": true,
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
       "border": {
         "default": {
           "$type": "color",
@@ -267,20 +281,6 @@
         "transparent": {
           "$type": "color",
           "$value": "#ffffff00",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": true,
-              "scopes": [],
-              "codeSyntax": {}
-            }
-          }
-        }
-      },
-      "background": {
-        "primary": {
-          "$type": "color",
-          "$value": "#ffffff",
           "$description": "",
           "$extensions": {
             "com.figma": {
