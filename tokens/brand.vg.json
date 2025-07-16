@@ -1123,36 +1123,12 @@
               "codeSyntax": {}
             }
           }
-        },
-        "focusRing": {
-          "$type": "number",
-          "$value": 10,
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": true,
-              "scopes": [],
-              "codeSyntax": {}
-            }
-          }
         }
       },
       "input": {
         "m": {
           "$type": "number",
           "$value": "{radius.200}",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": true,
-              "scopes": [],
-              "codeSyntax": {}
-            }
-          }
-        },
-        "focusRing": {
-          "$type": "number",
-          "$value": 10,
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -1177,36 +1153,12 @@
               "codeSyntax": {}
             }
           }
-        },
-        "focusRing": {
-          "$type": "number",
-          "$value": 6,
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": true,
-              "scopes": [],
-              "codeSyntax": {}
-            }
-          }
         }
       },
       "input": {
         "m": {
           "$type": "number",
           "$value": "{radius.200}",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": true,
-              "scopes": [],
-              "codeSyntax": {}
-            }
-          }
-        },
-        "focusRing": {
-          "$type": "number",
-          "$value": 8,
           "$description": "",
           "$extensions": {
             "com.figma": {
