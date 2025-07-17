@@ -16,7 +16,7 @@
         },
         "secondary": {
           "$type": "color",
-          "$value": "{color.b2b.light.interactive.secondary}",
+          "$value": "{color.b2b.light.interactive.primaryAccent}",
           "$description": "",
           "$extensions": {
             "com.figma": {
