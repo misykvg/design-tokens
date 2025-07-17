@@ -4,8 +4,8 @@
       "interactive": {
         "primaryAccent": {
           "$type": "color",
-          "$value": "#FFFFFF",
-          "$description": "updated color",
+          "$value": "{color.b2b.light.interactive.primaryAccent}",
+          "$description": "",
           "$extensions": {
             "com.figma": {
               "hiddenFromPublishing": true,
