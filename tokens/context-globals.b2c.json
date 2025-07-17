@@ -4,7 +4,7 @@
       "control": {
         "md": {
           "$type": "number",
-          "$value": 8,
+          "$value": "{radius.b2c.control.m}",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -18,7 +18,7 @@
       "input": {
         "m": {
           "$type": "number",
-          "$value": 4,
+          "$value": "{radius.b2c.input.m}",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -35,7 +35,7 @@
     "global": {
       "none": {
         "$type": "number",
-        "$value": 0,
+        "$value": "{space.b2c.none}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -47,7 +47,7 @@
       },
       "xxxs": {
         "$type": "number",
-        "$value": 2,
+        "$value": "{space.b2c.xxxs}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -59,7 +59,7 @@
       },
       "xxs": {
         "$type": "number",
-        "$value": 4,
+        "$value": "{space.b2c.xxs}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -71,7 +71,7 @@
       },
       "xs": {
         "$type": "number",
-        "$value": 8,
+        "$value": "{space.b2c.xs}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -83,7 +83,7 @@
       },
       "sm": {
         "$type": "number",
-        "$value": 12,
+        "$value": "{space.b2c.sm}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -95,7 +95,7 @@
       },
       "md": {
         "$type": "number",
-        "$value": 16,
+        "$value": "{space.b2b.sm}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -111,7 +111,7 @@
     "global": {
       "none": {
         "$type": "number",
-        "$value": 0,
+        "$value": "{opacity.b2c.none}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -123,7 +123,7 @@
       },
       "hover": {
         "$type": "number",
-        "$value": 6,
+        "$value": "{opacity.b2c.hover}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -135,7 +135,7 @@
       },
       "pressed": {
         "$type": "number",
-        "$value": 12,
+        "$value": "{opacity.b2c.pressed}",
         "$description": "",
         "$extensions": {
           "com.figma": {
