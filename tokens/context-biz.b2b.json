@@ -5,7 +5,7 @@
         "primaryAccent": {
           "$type": "color",
           "$value": "#FFFFFF",
-          "$description": "",
+          "$description": "updated color",
           "$extensions": {
             "com.figma": {
               "hiddenFromPublishing": true,
