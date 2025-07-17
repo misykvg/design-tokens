@@ -15,6 +15,18 @@
               }
             }
           },
+          "primaryDestructive": {
+            "$type": "color",
+            "$value": "{color.red.040}",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": true,
+                "scopes": [],
+                "codeSyntax": {}
+              }
+            }
+          },
           "secondary": {
             "$type": "color",
             "$value": "{color.gray.100}",
@@ -27,7 +39,7 @@
               }
             }
           },
-          "destructive": {
+          "secondaryDestructive": {
             "$type": "color",
             "$value": "#ffffff",
             "$description": "",
@@ -569,7 +581,31 @@
               }
             }
           },
+          "primaryDestructive": {
+            "$type": "color",
+            "$value": "#ffffff00",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": true,
+                "scopes": [],
+                "codeSyntax": {}
+              }
+            }
+          },
           "secondary": {
+            "$type": "color",
+            "$value": "#ffffff00",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": true,
+                "scopes": [],
+                "codeSyntax": {}
+              }
+            }
+          },
+          "secondaryDestructive": {
             "$type": "color",
             "$value": "#ffffff00",
             "$description": "",
