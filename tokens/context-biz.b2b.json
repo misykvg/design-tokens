@@ -16,7 +16,7 @@
         },
         "secondary": {
           "$type": "color",
-          "$value": "#ffffff00",
+          "$value": "{color.b2b.light.interactive.secondary}",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -52,7 +52,7 @@
         },
         "effect": {
           "$type": "color",
-          "$value": "#ffffff00",
+          "$value": "{color.b2b.light.interactive.effect}",
           "$description": "",
           "$extensions": {
             "com.figma": {
