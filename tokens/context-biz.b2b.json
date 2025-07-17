@@ -4,11 +4,11 @@
       "interactive": {
         "primaryAccent": {
           "$type": "color",
-          "$value": "#222222",
+          "$value": "#FFFFFF",
           "$description": "",
           "$extensions": {
             "com.figma": {
-              "hiddenFromPublishing": false,
+              "hiddenFromPublishing": true,
               "scopes": [],
               "codeSyntax": {}
             }
