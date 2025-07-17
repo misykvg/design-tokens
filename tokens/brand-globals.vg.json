@@ -4,7 +4,7 @@
       "control": {
         "m": {
           "$type": "number",
-          "$value": "{radius.200}",
+          "$value": "{radius.100}",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -18,7 +18,7 @@
       "input": {
         "m": {
           "$type": "number",
-          "$value": "{radius.200}",
+          "$value": "{radius.100}",
           "$description": "",
           "$extensions": {
             "com.figma": {
