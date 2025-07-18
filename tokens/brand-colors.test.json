@@ -855,7 +855,7 @@
         "surface": {
           "primary": {
             "$type": "color",
-            "$value": "{color.gray.087}",
+            "$value": "{color.gray.097}",
             "$description": "",
             "$extensions": {
               "com.figma": {
