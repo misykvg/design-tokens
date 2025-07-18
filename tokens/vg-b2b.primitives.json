@@ -589,10 +589,8 @@
         "$description": "",
         "$extensions": {
           "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
+            "hiddenFromPublishing": true,
+            "scopes": [],
             "codeSyntax": {}
           }
         }
@@ -603,10 +601,8 @@
         "$description": "",
         "$extensions": {
           "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
+            "hiddenFromPublishing": true,
+            "scopes": [],
             "codeSyntax": {}
           }
         }
@@ -617,10 +613,8 @@
         "$description": "",
         "$extensions": {
           "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
+            "hiddenFromPublishing": true,
+            "scopes": [],
             "codeSyntax": {}
           }
         }
@@ -631,10 +625,8 @@
         "$description": "",
         "$extensions": {
           "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
+            "hiddenFromPublishing": true,
+            "scopes": [],
             "codeSyntax": {}
           }
         }
