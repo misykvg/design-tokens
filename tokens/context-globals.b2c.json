@@ -1,31 +1,27 @@
 {
   "radius": {
     "global": {
-      "control": {
-        "md": {
-          "$type": "number",
-          "$value": "{radius.b2c.control.m}",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": true,
-              "scopes": [],
-              "codeSyntax": {}
-            }
+      "md": {
+        "$type": "number",
+        "$value": "{radius.b2c.control.m}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": true,
+            "scopes": [],
+            "codeSyntax": {}
           }
         }
       },
-      "input": {
-        "m": {
-          "$type": "number",
-          "$value": "{radius.b2c.input.m}",
-          "$description": "",
-          "$extensions": {
-            "com.figma": {
-              "hiddenFromPublishing": true,
-              "scopes": [],
-              "codeSyntax": {}
-            }
+      "m": {
+        "$type": "number",
+        "$value": "{radius.b2c.input.m}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": true,
+            "scopes": [],
+            "codeSyntax": {}
           }
         }
       }
