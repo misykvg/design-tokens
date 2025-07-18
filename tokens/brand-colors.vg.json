@@ -5,7 +5,7 @@
         "interactive": {
           "primaryAccent": {
             "$type": "color",
-            "$value": "{color.red.040}",
+            "$value": "{color.green.025}",
             "$description": "",
             "$extensions": {
               "com.figma": {
