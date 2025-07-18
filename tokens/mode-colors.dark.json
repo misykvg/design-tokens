@@ -74,6 +74,20 @@
             }
           }
         }
+      },
+      "transparent": {
+        "$type": "color",
+        "$value": "{color.dark.interactive.transparent}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": true,
+            "scopes": [],
+            "codeSyntax": {
+              "WEB": "color/interactive/accent-effect"
+            }
+          }
+        }
       }
     },
     "textAndIcon": {
@@ -266,6 +280,18 @@
       "primary": {
         "$type": "color",
         "$value": "{color.dark.surface.primary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": true,
+            "scopes": [],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "transparent": {
+        "$type": "color",
+        "$value": "{color.dark.surface.transparent}",
         "$description": "",
         "$extensions": {
           "com.figma": {
