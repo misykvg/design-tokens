@@ -74,6 +74,18 @@
                 "codeSyntax": {}
               }
             }
+          },
+          "transparent": {
+            "$type": "color",
+            "$value": "{color.gray.transparent}",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": true,
+                "scopes": [],
+                "codeSyntax": {}
+              }
+            }
           }
         },
         "textAndIcon": {
@@ -249,7 +261,7 @@
           },
           "transparent": {
             "$type": "color",
-            "$value": "#ffffff00",
+            "$value": "{color.gray.transparent}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -278,6 +290,18 @@
           "primary": {
             "$type": "color",
             "$value": "{color.gray.100}",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": true,
+                "scopes": [],
+                "codeSyntax": {}
+              }
+            }
+          },
+          "transparent": {
+            "$type": "color",
+            "$value": "{color.gray.transparent}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -354,6 +378,18 @@
           "effect": {
             "$type": "color",
             "$value": "{color.gray.000}",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": true,
+                "scopes": [],
+                "codeSyntax": {}
+              }
+            }
+          },
+          "transparent": {
+            "$type": "color",
+            "$value": "{color.gray.transparent}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -537,7 +573,7 @@
           },
           "transparent": {
             "$type": "color",
-            "$value": "#ffffff00",
+            "$value": "{color.gray.transparent}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -566,6 +602,18 @@
           "primary": {
             "$type": "color",
             "$value": "{color.gray.000}",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": true,
+                "scopes": [],
+                "codeSyntax": {}
+              }
+            }
+          },
+          "transparent": {
+            "$type": "color",
+            "$value": "{color.gray.transparent}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -644,6 +692,18 @@
           "effect": {
             "$type": "color",
             "$value": "{color.gray.000}",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": true,
+                "scopes": [],
+                "codeSyntax": {}
+              }
+            }
+          },
+          "transparent": {
+            "$type": "color",
+            "$value": "{color.gray.transparent}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -827,7 +887,7 @@
           },
           "transparent": {
             "$type": "color",
-            "$value": "#ffffff00",
+            "$value": "{color.gray.transparent}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -856,6 +916,18 @@
           "primary": {
             "$type": "color",
             "$value": "{color.gray.097}",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": true,
+                "scopes": [],
+                "codeSyntax": {}
+              }
+            }
+          },
+          "transparent": {
+            "$type": "color",
+            "$value": "{color.gray.transparent}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -932,6 +1004,18 @@
           "effect": {
             "$type": "color",
             "$value": "{color.gray.000}",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": true,
+                "scopes": [],
+                "codeSyntax": {}
+              }
+            }
+          },
+          "transparent": {
+            "$type": "color",
+            "$value": "{color.gray.transparent}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -1115,7 +1199,7 @@
           },
           "transparent": {
             "$type": "color",
-            "$value": "#ffffff00",
+            "$value": "{color.gray.transparent}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -1144,6 +1228,18 @@
           "primary": {
             "$type": "color",
             "$value": "{color.gray.012}",
+            "$description": "",
+            "$extensions": {
+              "com.figma": {
+                "hiddenFromPublishing": true,
+                "scopes": [],
+                "codeSyntax": {}
+              }
+            }
+          },
+          "transparent": {
+            "$type": "color",
+            "$value": "{color.gray.transparent}",
             "$description": "",
             "$extensions": {
               "com.figma": {

@@ -75,6 +75,20 @@
               }
             }
           }
+        },
+        "transparent": {
+          "$type": "color",
+          "$value": "{color.b2b.light.interactive.transparent}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": true,
+              "scopes": [],
+              "codeSyntax": {
+                "WEB": "color/interactive/accent-effect"
+              }
+            }
+          }
         }
       },
       "textAndIcon": {
@@ -275,6 +289,18 @@
               "codeSyntax": {}
             }
           }
+        },
+        "transparent": {
+          "$type": "color",
+          "$value": "{color.b2b.light.surface.transparent}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": true,
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
         }
       },
       "background": {
@@ -357,6 +383,18 @@
         "effect": {
           "$type": "color",
           "$value": "{color.b2b.dark.interactive.effect}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": true,
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "transparent": {
+          "$type": "color",
+          "$value": "{color.b2b.dark.interactive.transparent}",
           "$description": "",
           "$extensions": {
             "com.figma": {
@@ -555,6 +593,18 @@
         "primary": {
           "$type": "color",
           "$value": "{color.b2b.dark.surface.primary}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": true,
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "transparent": {
+          "$type": "color",
+          "$value": "{color.b2b.dark.surface.transparent}",
           "$description": "",
           "$extensions": {
             "com.figma": {
