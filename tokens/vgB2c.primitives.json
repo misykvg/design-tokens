@@ -769,7 +769,7 @@
     "green": {
       "088": {
         "$type": "color",
-        "$value": "#d8e7e9",
+        "$value": "#d5ece5",
         "$description": "",
         "$extensions": {
           "com.figma": {
