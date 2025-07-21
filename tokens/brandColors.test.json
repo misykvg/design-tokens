@@ -765,7 +765,7 @@
           },
           "onTertiary": {
             "$type": "color",
-            "$value": "{color.green.035}",
+            "$value": "{color.green.025}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -777,7 +777,7 @@
           },
           "accent": {
             "$type": "color",
-            "$value": "{color.green.030}",
+            "$value": "{color.green.025}",
             "$description": "",
             "$extensions": {
               "com.figma": {
