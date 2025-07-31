@@ -322,7 +322,8 @@
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "STROKE_COLOR"
+              "STROKE_COLOR",
+              "EFFECT_COLOR"
             ],
             "codeSyntax": {}
           }

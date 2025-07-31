@@ -657,6 +657,18 @@
           }
         }
       },
+      "090": {
+        "$type": "color",
+        "$value": "#e4e6e9",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": true,
+            "scopes": [],
+            "codeSyntax": {}
+          }
+        }
+      },
       "087": {
         "$type": "color",
         "$value": "#dfdfdf",
@@ -1033,6 +1045,18 @@
     "012": {
       "$type": "number",
       "$value": 12,
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": true,
+          "scopes": [],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "024": {
+      "$type": "number",
+      "$value": 24,
       "$description": "",
       "$extensions": {
         "com.figma": {

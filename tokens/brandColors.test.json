@@ -189,7 +189,7 @@
         "border": {
           "default": {
             "$type": "color",
-            "$value": "{color.gray.087}",
+            "$value": "{color.gray.090}",
             "$description": "",
             "$extensions": {
               "com.figma": {
