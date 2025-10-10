@@ -16,20 +16,20 @@ class TokenResolver {
         this.resolvedTokens = {}
     }
 
-    // Load tokens for specific context
+    // Load tokens for specific context (colors only)
     loadContextTokens(context) {
         const [brand, contextType, theme] = context.split('-')
 
-        // Define files needed for this context
+        // Define files needed for COLOR context only
         const contextFiles = [
-            'tokens/dsColors.tokens.json',
-            'tokens/dsGlobals.tokens.json',
-            `tokens/modeColors.${theme}.json`,
-            `tokens/modeGlobals.default.json`,
+            'tokens/dsColors.tokens.json', // ✅ Include colors
+            // 'tokens/dsGlobals.tokens.json',   // ❌ Exclude globals
+            `tokens/modeColors.${theme}.json`, // ✅ Mode-specific colors
+            // `tokens/modeGlobals.default.json`, // ❌ Exclude mode globals
             `tokens/contextColors.${contextType}.json`,
-            `tokens/contextGlobals.${contextType}.json`,
-            `tokens/brandColors.${brand}.json`,
-            `tokens/brandGlobals.${brand}.json`,
+            // `tokens/contextGlobals.${contextType}.json`, // ❌ Exclude context globals
+            `tokens/brandColors.${brand}.json`, // ✅ Brand-specific colors
+            // `tokens/brandGlobals.${brand}.json`, // ❌ Exclude brand globals
             `tokens/${brand}${contextType.charAt(0).toUpperCase() + contextType.slice(1)}.primitives.json`
         ]
 
@@ -37,6 +37,35 @@ class TokenResolver {
         contextFiles.forEach(file => console.log(`  - ${file}`))
 
         for (const filePath of contextFiles) {
+            try {
+                if (glob.sync(filePath).length > 0) {
+                    const content = readFileSync(filePath, 'utf-8')
+                    const tokens = JSON.parse(content)
+                    this.flattenTokens(tokens, filePath)
+                } else {
+                    console.warn(`File not found: ${filePath}`)
+                }
+            } catch (error) {
+                console.warn(`Warning: Could not load ${filePath}:`, error.message)
+            }
+        }
+    }
+
+    // Load tokens for global context (brand-context globals only)
+    loadGlobalTokens(brand, contextType) {
+        // Define files needed for GLOBAL tokens only
+        const globalFiles = [
+            'tokens/dsGlobals.tokens.json', // ✅ Include globals
+            'tokens/modeGlobals.default.json', // ✅ Default globals
+            `tokens/contextGlobals.${contextType}.json`, // ✅ Context-specific globals
+            `tokens/brandGlobals.${brand}.json`, // ✅ Brand-specific globals
+            `tokens/${brand}${contextType.charAt(0).toUpperCase() + contextType.slice(1)}.primitives.json` // ✅ Primitives for resolution
+        ]
+
+        console.log(`Loading global files for ${brand}-${contextType}:`)
+        globalFiles.forEach(file => console.log(`  - ${file}`))
+
+        for (const filePath of globalFiles) {
             try {
                 if (glob.sync(filePath).length > 0) {
                     const content = readFileSync(filePath, 'utf-8')
@@ -262,6 +291,46 @@ class TokenResolver {
             console.log(`  - dist/${context}/tokens.scss`)
         })
     }
+
+    // Build global tokens for brand-context combination
+    async buildGlobalTokens(brand, contextType) {
+        console.log(`\n🔄 Building global tokens for ${brand}-${contextType}...`)
+
+        // Clear tokens for global build
+        this.allTokens = {}
+        this.resolvedTokens = {}
+
+        // Load global tokens
+        this.loadGlobalTokens(brand, contextType)
+
+        console.log(`📁 Loaded ${Object.keys(this.allTokens).length} global tokens for ${brand}-${contextType}`)
+
+        // Resolve ds tokens (this will only include globals now)
+        const dsTokens = this.resolveDsTokens()
+        console.log(`✅ Resolved ${Object.keys(dsTokens).length} global ds tokens for ${brand}-${contextType}`)
+
+        // Create brand-context global dist directory
+        const globalDir = `dist/${brand}-${contextType}-globals`
+        mkdirSync(globalDir, {
+            recursive: true
+        })
+
+        // Generate JavaScript tokens
+        const jsContent = this.generateJSTokens(dsTokens)
+        writeFileSync(`${globalDir}/tokens.js`, jsContent)
+
+        // Generate CSS variables
+        const cssContent = this.generateCSSVariables(dsTokens)
+        writeFileSync(`${globalDir}/tokens.css`, cssContent)
+
+        // Generate SCSS variables
+        const scssContent = this.generateSCSSVariables(dsTokens)
+        writeFileSync(`${globalDir}/tokens.scss`, scssContent)
+
+        console.log(`✅ Global tokens built in ${globalDir}/`)
+
+        return dsTokens
+    }
 }
 
 // Run the build
@@ -272,5 +341,16 @@ const context = process.argv[2]
 if (context) {
     resolver.buildContext(context)
 } else {
-    resolver.buildAllContexts()
+    // Build all contexts (colors only)
+    await resolver.buildAllContexts()
+
+    // Build global tokens for each brand-context combination
+    await resolver.buildGlobalTokens('vg', 'b2b')
+    await resolver.buildGlobalTokens('vg', 'b2c')
+    await resolver.buildGlobalTokens('sdbg', 'b2b')
+    await resolver.buildGlobalTokens('sdbg', 'b2c')
+
+    console.log('\n🎉 Build complete!')
+    console.log('📁 Context-specific tokens (colors only): dist/{brand}-{context}-{mode}/')
+    console.log('📁 Global tokens (per brand-context): dist/{brand}-{context}-globals/')
 }
