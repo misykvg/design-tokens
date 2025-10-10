@@ -165,6 +165,18 @@
           }
         }
       },
+      "active": {
+        "$type": "color",
+        "$value": "{color.light.textAndIcon.active}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": true,
+            "scopes": [],
+            "codeSyntax": {}
+          }
+        }
+      },
       "destructive": {
         "$type": "color",
         "$value": "{color.light.textAndIcon.destructive}",

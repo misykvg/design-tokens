@@ -5,7 +5,7 @@
         "interactive": {
           "primaryAccent": {
             "$type": "color",
-            "$value": "{color.green.025}",
+            "$value": "#3304f1",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -115,7 +115,7 @@
           },
           "secondary": {
             "$type": "color",
-            "$value": "{color.gray.048}",
+            "$value": "{color.gray.012}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -789,7 +789,7 @@
           },
           "onTertiary": {
             "$type": "color",
-            "$value": "{color.green.035}",
+            "$value": "{color.green.025}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -801,7 +801,7 @@
           },
           "accent": {
             "$type": "color",
-            "$value": "{color.green.030}",
+            "$value": "{color.green.025}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -813,7 +813,7 @@
           },
           "active": {
             "$type": "color",
-            "$value": "{color.green.030}",
+            "$value": "{color.green.025}",
             "$description": "",
             "$extensions": {
               "com.figma": {
