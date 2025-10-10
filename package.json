@@ -1,6 +1,6 @@
 {
     "name": "@misykvg/design-tokens",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Design tokens for React Native and React web applications",
     "main": "dist/tokens.js",
     "type": "module",
