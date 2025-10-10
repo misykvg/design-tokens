@@ -166,6 +166,18 @@
             }
           }
         },
+        "active": {
+          "$type": "color",
+          "$value": "{color.b2c.light.textAndIcon.active}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": true,
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        },
         "destructive": {
           "$type": "color",
           "$value": "{color.b2c.light.textAndIcon.destructive}",
@@ -467,6 +479,18 @@
           }
         },
         "accent": {
+          "$type": "color",
+          "$value": "{color.b2c.dark.textAndIcon.accent}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": true,
+              "scopes": [],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "active": {
           "$type": "color",
           "$value": "{color.b2c.dark.textAndIcon.accent}",
           "$description": "",

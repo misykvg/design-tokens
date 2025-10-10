@@ -77,7 +77,7 @@
       },
       "hover": {
         "$type": "number",
-        "$value": "{opacity.006}",
+        "$value": "{opacity.012}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -89,7 +89,7 @@
       },
       "pressed": {
         "$type": "number",
-        "$value": "{opacity.012}",
+        "$value": "{opacity.024}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -115,7 +115,7 @@
       },
       "hover": {
         "$type": "number",
-        "$value": "{opacity.006}",
+        "$value": "{opacity.012}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -127,7 +127,7 @@
       },
       "pressed": {
         "$type": "number",
-        "$value": "{opacity.012}",
+        "$value": "{opacity.024}",
         "$description": "",
         "$extensions": {
           "com.figma": {

@@ -120,8 +120,7 @@
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "SHAPE_FILL",
-              "TEXT_FILL",
+              "ALL_FILLS",
               "STROKE_COLOR"
             ],
             "codeSyntax": {}
@@ -136,8 +135,7 @@
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "SHAPE_FILL",
-              "TEXT_FILL",
+              "ALL_FILLS",
               "STROKE_COLOR"
             ],
             "codeSyntax": {
@@ -154,8 +152,7 @@
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "SHAPE_FILL",
-              "TEXT_FILL",
+              "ALL_FILLS",
               "STROKE_COLOR"
             ],
             "codeSyntax": {}
@@ -170,8 +167,7 @@
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "SHAPE_FILL",
-              "TEXT_FILL",
+              "ALL_FILLS",
               "STROKE_COLOR"
             ],
             "codeSyntax": {}
@@ -186,8 +182,7 @@
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "SHAPE_FILL",
-              "TEXT_FILL",
+              "ALL_FILLS",
               "STROKE_COLOR"
             ],
             "codeSyntax": {}
@@ -202,8 +197,22 @@
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "SHAPE_FILL",
-              "TEXT_FILL",
+              "ALL_FILLS",
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "active": {
+        "$type": "color",
+        "$value": "{colors.textAndIcon.active}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS",
               "STROKE_COLOR"
             ],
             "codeSyntax": {}
@@ -218,8 +227,7 @@
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "SHAPE_FILL",
-              "TEXT_FILL",
+              "ALL_FILLS",
               "STROKE_COLOR"
             ],
             "codeSyntax": {}
@@ -234,8 +242,7 @@
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "SHAPE_FILL",
-              "TEXT_FILL",
+              "ALL_FILLS",
               "STROKE_COLOR"
             ],
             "codeSyntax": {}
@@ -322,7 +329,8 @@
           "com.figma": {
             "hiddenFromPublishing": false,
             "scopes": [
-              "STROKE_COLOR"
+              "STROKE_COLOR",
+              "EFFECT_COLOR"
             ],
             "codeSyntax": {}
           }

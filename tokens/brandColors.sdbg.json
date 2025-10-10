@@ -5,7 +5,7 @@
         "interactive": {
           "primaryAccent": {
             "$type": "color",
-            "$value": "{color.green.025}",
+            "$value": "{color.red.040}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -91,7 +91,7 @@
         "textAndIcon": {
           "primary": {
             "$type": "color",
-            "$value": "{color.gray.017}",
+            "$value": "{color.gray.015}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -115,7 +115,7 @@
           },
           "secondary": {
             "$type": "color",
-            "$value": "{color.gray.048}",
+            "$value": "{color.gray.012}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -127,7 +127,7 @@
           },
           "onSecondary": {
             "$type": "color",
-            "$value": "{color.gray.017}",
+            "$value": "{color.red.040}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -139,7 +139,7 @@
           },
           "onTertiary": {
             "$type": "color",
-            "$value": "{color.gray.017}",
+            "$value": "{color.red.040}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -151,7 +151,7 @@
           },
           "accent": {
             "$type": "color",
-            "$value": "{color.green.025}",
+            "$value": "{color.red.040}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -163,7 +163,7 @@
           },
           "active": {
             "$type": "color",
-            "$value": "{color.green.025}",
+            "$value": "{color.gray.000}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -655,7 +655,7 @@
         "interactive": {
           "primaryAccent": {
             "$type": "color",
-            "$value": "{color.green.025}",
+            "$value": "{color.red.040}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -679,7 +679,7 @@
           },
           "secondary": {
             "$type": "color",
-            "$value": "{color.green.088}",
+            "$value": "{color.red.096}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -741,7 +741,7 @@
         "textAndIcon": {
           "primary": {
             "$type": "color",
-            "$value": "{color.gray.006}",
+            "$value": "{color.gray.015}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -765,7 +765,7 @@
           },
           "secondary": {
             "$type": "color",
-            "$value": "{color.gray.012}",
+            "$value": "{color.gray.038}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -777,7 +777,7 @@
           },
           "onSecondary": {
             "$type": "color",
-            "$value": "{color.gray.000}",
+            "$value": "{color.red.040}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -789,7 +789,7 @@
           },
           "onTertiary": {
             "$type": "color",
-            "$value": "{color.green.035}",
+            "$value": "{color.red.040}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -801,7 +801,7 @@
           },
           "accent": {
             "$type": "color",
-            "$value": "{color.green.030}",
+            "$value": "{color.red.040}",
             "$description": "",
             "$extensions": {
               "com.figma": {
@@ -813,7 +813,7 @@
           },
           "active": {
             "$type": "color",
-            "$value": "{color.green.030}",
+            "$value": "{color.red.040}",
             "$description": "",
             "$extensions": {
               "com.figma": {
